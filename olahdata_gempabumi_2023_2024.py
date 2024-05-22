@@ -65,8 +65,8 @@ print(f"Number of deep earthquakes = {deep_earthquakes}")
 print(f"The location where earthquakes occur most frequently is {location_most}.")
 print(sorted_location)
 
-x_loc = list(sorted_location.keys())[-15:]
-y_num = list(sorted_location.values())[-15:]
+# x_loc = list(sorted_location.keys())[-15:]
+# y_num = list(sorted_location.values())[-15:]
 
 # plt.barh(x_loc, y_num, color="#124559", height=0.8)
 # plt.barh(x_loc, y_num, color="gray", height=0.8, alpha=0.3, left=[v + 1 for v in y_num])
